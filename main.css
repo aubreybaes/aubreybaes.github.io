@@ -108,7 +108,7 @@ li {
 
 
 #projects p strong {
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: center;
   line-height: 1.25em;
 }
@@ -125,12 +125,13 @@ li {
   align-items:center;
   justify-content:center;
   max-width:810px;
+  margin: 20px auto 0;
   
 }
 
 .project-tile{
   
-  
+  margin:10px;
   margin-top:7%;
   max-width:250px;
   border:2px solid white;

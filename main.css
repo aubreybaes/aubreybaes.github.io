@@ -158,13 +158,14 @@ li {
 
 
 .see-more {
-  
+  width:40%;
   text-decoration: none;
   padding: 1em 2em 1em 2em;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   background-color:  #bb0a21;
   font-size:0.5em;
   color:rgba(255, 255, 255, 0.876);
+  margin:auto;
   margin-top: 2em;
   margin-bottom: 2em;
   transition: transform 0.3s ease;

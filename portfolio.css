@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #d3d4d9;
+}
+
+
+h4 {
+  font-size: 2em;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bb0a21;
+  background-image: linear-gradient (to bottom, #bb0a21,#000);
+  box-shadow: 2px 2px 12px #080808;
+  padding: 0px 5%;
+  position: fixed;
+  width: 100%;
+  margin:0;
+  top:0;
+  z-index: 100;
+}
+
+
+ul {
+  margin:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+li {
+  list-style: none;
+  font-size: 1.5em;
+  margin: 0 2vw;
+  font-size:3vh;
+}
+
+#navbar a {
+
+  text-decoration: none;
+  color: #e4f9f5;
+  padding:1.5vw;
+}
+
+#navbar a:hover {
+  background-color: rgb(54, 51, 51);
+}
+
+
+#welcome-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  background-image: linear-gradient(to bottom, rgba(53, 50, 50, 0.493), rgba(0, 0, 0, 0.199)), 
+  url('https://images.unsplash.com/photo-1518514854541-fe58ae2a5ef1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+}
+
+
+#welcome-section h1 {
+  margin-top: 1em;
+  padding: 0.5em;
+  font-size: 4em;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;}
+
+#welcome-section p {
+  font-size: 2em;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;font-style: italic;
+}
+
+
+
+/*WORK WORK WORK WORK WORK*/
+
+
+#projects{
+  padding-top:4em;
+  font-family: 'Poppins', sans-serif;height:auto;
+  width:100%;
+  background-color:rgba(144, 144, 144, 0.233);
+  font-size:2em;
+  text-align: center;
+  color:#50514f;
+  align-items: center;
+}
+
+#projects p{
+  display: inline-block;
+}
+
+
+
+.projects-container{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  max-width:810px;
+  margin: 20px auto 0;
+  
+}
+
+.project-tile{
+  
+  margin:10px;
+  margin-top:7%;
+  max-width:250px;
+  border:2px solid white;
+  background-color:#252627;
+  text-decoration:none;
+  transition: transform 0.3s ease;
+}
+
+.project-tile:hover{
+  transform:scale(1.05);
+  
+}
+
+.project-tile p{
+  color:white;
+  font-size:20px;
+  margin-top:10px;
+  
+}
+
+.project-tile img{
+  max-width:100%;
+}
+
+.seemore{
+  position:relative;
+  width: 100%;
+  padding:1.5em;
+}
+#see-more {
+  
+  text-decoration: none;
+  padding: 1em 2em 1em 2em;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  background-color:  #bb0a21;
+  font-size:15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgba(255, 255, 255, 0.876);
+  margin-bottom: 2em;
+  transition: transform 0.3s ease;
+}
+
+#see-more:hover{
+  color: #e4f9f5;
+  background-color:  rgba(20, 19, 19, 0.692);
+  transform:scale(1.05);
+
+}
+
+
+
+
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background-color: #2e3534;
+  color:white;
+  margin:0;
+}
+
+
+#contact ul{
+  
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  list-style-type:none;
+  margin:0;
+  padding: 3em 0;
+  
+  
+}
+
+#contact ul a{
+  color:white;
+  font-size:30px;
+  margin: 0.15em 0.25em;
+  border-radius:50%;
+  border:1.5px solid white;
+  width:60px;
+  height:60px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  transition: transform 0.3s ease;
+}
+
+#contact ul a:hover{
+  transform:scale(1.05);
+  
+}
+
+
+#contact p {
+  margin-top: 3em;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+}
+#contact p strong {
+  font-size: 1.75em;
+}
+
+
+@media only screen and (max-width: 550px) {
+  
+  #welcome-section h1 {
+    font-size: 3em;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;}
+  
+  #welcome-section p {
+    align-self: center;
+    font-size: 1.25em;
+    display:inline-block;
+    }
+
+  #navbar ul {
+    flex-direction: column;
+
+  }
+  #navbar li{
+    margin:0;
+  }
+
+  #navbar a {
+  display: block;
+  right:0;
+  text-align: center;
+  width:20vw;
+  }
+  #projects{
+    padding-top:6em;
+    font-size:1.75em;
+  }
+
+  .proj-container {
+    margin: 4em;
+    width: 80%;
+    height: auto;
+  }
+  
+  #contact {
+    padding-top:20vw;
+}
+  #contact ul a{
+  
+  display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  }}

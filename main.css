@@ -258,9 +258,9 @@ li {
 
   #navbar a {
   display: block;
-  right:0;
+  right:2em;
   text-align: center;
-  width:20vw;
+  width:30vw;
   }
   #projects{
     padding-top:6em;

@@ -108,7 +108,7 @@ li {
 
 
 #projects p strong {
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: center;
   line-height: 1.25em;
 }
@@ -124,7 +124,7 @@ li {
   flex-wrap:wrap;
   align-items:center;
   justify-content:center;
-  max-width:810px;
+  max-width:1020px;
   margin: 20px auto 0;
   
 }
@@ -132,8 +132,8 @@ li {
 .project-tile{
   
   margin:10px;
-  margin-top:7%;
-  max-width:250px;
+  margin-top:4%;
+  max-width:320px;
   border:2px solid white;
   background-color:#252627;
   text-decoration:none;
@@ -148,7 +148,7 @@ li {
 .project-tile p{
   color:white;
   font-size:0.65em;
-  margin:2vw auto;
+  margin:auto;
   
 }
 
@@ -160,6 +160,7 @@ li {
   position:relative;
   width: 100%;
   padding:1.5em;
+
 }
 #see-more {
   
@@ -168,7 +169,6 @@ li {
   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   background-color:  #bb0a21;
   font-size:15px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:rgba(255, 255, 255, 0.876);
   margin-bottom: 2em;
   transition: transform 0.3s ease;

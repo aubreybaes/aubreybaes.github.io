@@ -233,9 +233,9 @@ li {
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
   h4 {
-  font-size: 1.5em;
+  font-size: 1.75em;
 }
   #welcome-section h1 {
     font-size: 3em;

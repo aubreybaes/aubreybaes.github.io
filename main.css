@@ -156,13 +156,8 @@ li {
   max-width:100%;
 }
 
-.seemore{
-  position:relative;
-  width: 100%;
-  padding:1.5em;
 
-}
-#see-more {
+.see-more {
   
   text-decoration: none;
   padding: 1em 2em 1em 2em;
@@ -170,11 +165,18 @@ li {
   background-color:  #bb0a21;
   font-size:0.5em;
   color:rgba(255, 255, 255, 0.876);
+  margin-top: 2em;
   margin-bottom: 2em;
   transition: transform 0.3s ease;
 }
 
-#see-more:hover{
+.see-more a {
+  
+  text-decoration: none;
+  color:rgba(255, 255, 255, 0.876);
+}
+
+.see-more:hover{
   color: #e4f9f5;
   background-color:  rgba(20, 19, 19, 0.692);
   transform:scale(1.05);
